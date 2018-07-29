@@ -91,8 +91,7 @@ def gban(bot: Bot, update: Update, args: List[str]):
 
         return
 
-    message.reply_text(" They're dead now! 👉😎👉")
-
+       message.reply_text("*Blows dust off of mjolnir* 😉")
     banner = update.effective_user  # type: Optional[User]
     send_to_list(bot, SUDO_USERS + SUPPORT_USERS,
                  "<b>Global Ban</b>" \
